@@ -11,8 +11,8 @@
 	
 	"mounts": [
     //"source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind",
-	//"source=${localEnv:HOME}/Desktop/prova_container/PX4-Autopilot, target=/home/ubuntu, type=bind, consistency=cached",
-	//"source=${localEnv:HOME}/Desktop/prova_container/ros2_ws, target=/home/ubuntu, type=bind, consistency=cached"
+	//"source=${localEnv:HOME}/Desktop/prova_container/PX4-Autopilot,target=/home/ubuntu/PX4-Autopilot,type=bind,consistency=cached",
+	//"source=${localEnv:HOME}/Desktop/prova_container/ros2_ws,target=/home/ubuntu/ros2_ws,type=bind,consistency=cached"
 
   	],
 	"features": {
