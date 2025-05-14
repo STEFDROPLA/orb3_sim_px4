@@ -1,3 +1,4 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "cmake.sourceDirectory": "/workspaces/prova_container/ORB_SLAM3/Thirdparty/DBoW2"
 }

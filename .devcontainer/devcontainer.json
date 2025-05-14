@@ -8,11 +8,13 @@
 		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
 		"dockerfile": "develope.dockerfile"
 	},
+
 	
 	"mounts": [
     //"source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind",
-	//"source=${localEnv:HOME}/Desktop/prova_container/PX4-Autopilot,target=/home/ubuntu/PX4-Autopilot,type=bind,consistency=cached",
-	//"source=${localEnv:HOME}/Desktop/prova_container/ros2_ws,target=/home/ubuntu/ros2_ws,type=bind,consistency=cached"
+	"source=${localEnv:HOME}/Desktop/prova_container/PX4-Autopilot,target=/home/ubuntu/PX4-Autopilot,type=bind,consistency=cached",
+	"source=${localEnv:HOME}/Desktop/prova_container/ros2_ws,target=/home/ubuntu/ros2_ws,type=bind,consistency=cached",
+	"source=${localEnv:HOME}/Desktop/prova_container/ORB_SLAM3,target=/home/ubuntu/ORB_SLAM3,type=bind,consistency=cached"
 
   	],
 	"features": {
@@ -26,8 +28,15 @@
 		"5091": {
 		"label": "Desktop (VNC)"
 		}
-	}
+	},
 
+	"postCreateCommand": "cd /home/ubuntu/ORB_SLAM3/Thirdparty/Sophus && mkdir -p build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release && make -j$(nproc) && sudo make install",
+		
+	"containerEnv": {
+		"ORB_SLAM3_ROOT": "/home/ubuntu/ORB_SLAM3"
+	}
+	
+	
 	// Uncomment the next line to run commands after the container is created.
 	// "postCreateCommand": "cat /etc/os-release",
 

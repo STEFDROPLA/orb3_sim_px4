@@ -135,11 +135,40 @@ RUN sudo usermod --append --groups video $USERNAME
 # Set the working directory
 #WORKDIR /home/ubuntu
 
+# Source ROS2 setup script by default in the user's .bashrc (fix for point 3)
+RUN echo "source /opt/ros/humble/setup.bash" >> /home/ubuntu/.bashrc
+
+# Initialize rosdep safely in Docker (fix for point 5)
+USER root
+RUN rosdep init || true && rosdep update
+USER $USERNAME
 
 
-# Source ROS2 setup script by default
-RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+# # Install OpenCV dependencies and build OpenCV 4.4.0
+# USER root
+# RUN apt-get update && apt-get install -y \
+#      python3-dev python3-numpy python2-dev \
+#      libavcodec-dev libavformat-dev libswscale-dev \
+#      libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev \
+#      libgtk-3-dev && \
+#      cd /tmp && git clone https://github.com/opencv/opencv.git && \
+#      cd opencv && git checkout 4.2.0 && mkdir build && cd build && \
+#      cmake -D CMAKE_BUILD_TYPE=Release -D BUILD_EXAMPLES=OFF -D BUILD_DOCS=OFF \
+#            -D BUILD_PERF_TESTS=OFF -D BUILD_TESTS=OFF -D CMAKE_INSTALL_PREFIX=/usr/local .. && \
+#      make -j$(nproc) && make install && \
+#      cd / && rm -rf /tmp/opencv
+#RUN apt-get update && apt-get install -y ros-humble-vision-opencv
+
+USER root
+# Build and install Pangolin v0.9.1
+RUN cd /tmp && git clone https://github.com/stevenlovegrove/Pangolin && \
+    cd Pangolin && git checkout v0.9.1 && mkdir build && cd build && \
+    cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-std=c++14 -DCMAKE_INSTALL_PREFIX=/usr/local .. && \
+    make -j$(nproc) && make install && \
+    cd / && rm -rf /tmp/Pangolin
+    
+
+USER $USERNAME
+
 
 CMD ["bash"]
-
-
