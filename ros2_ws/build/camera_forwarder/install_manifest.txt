@@ -1,0 +1,16 @@
+/workspaces/prova_container/ros2_ws/install/camera_forwarder/lib/camera_forwarder/camera_forwarder_node
+/workspaces/prova_container/ros2_ws/install/camera_forwarder/share/ament_index/resource_index/package_run_dependencies/camera_forwarder
+/workspaces/prova_container/ros2_ws/install/camera_forwarder/share/ament_index/resource_index/parent_prefix_path/camera_forwarder
+/workspaces/prova_container/ros2_ws/install/camera_forwarder/share/camera_forwarder/environment/ament_prefix_path.sh
+/workspaces/prova_container/ros2_ws/install/camera_forwarder/share/camera_forwarder/environment/ament_prefix_path.dsv
+/workspaces/prova_container/ros2_ws/install/camera_forwarder/share/camera_forwarder/environment/path.sh
+/workspaces/prova_container/ros2_ws/install/camera_forwarder/share/camera_forwarder/environment/path.dsv
+/workspaces/prova_container/ros2_ws/install/camera_forwarder/share/camera_forwarder/local_setup.bash
+/workspaces/prova_container/ros2_ws/install/camera_forwarder/share/camera_forwarder/local_setup.sh
+/workspaces/prova_container/ros2_ws/install/camera_forwarder/share/camera_forwarder/local_setup.zsh
+/workspaces/prova_container/ros2_ws/install/camera_forwarder/share/camera_forwarder/local_setup.dsv
+/workspaces/prova_container/ros2_ws/install/camera_forwarder/share/camera_forwarder/package.dsv
+/workspaces/prova_container/ros2_ws/install/camera_forwarder/share/ament_index/resource_index/packages/camera_forwarder
+/workspaces/prova_container/ros2_ws/install/camera_forwarder/share/camera_forwarder/cmake/camera_forwarderConfig.cmake
+/workspaces/prova_container/ros2_ws/install/camera_forwarder/share/camera_forwarder/cmake/camera_forwarderConfig-version.cmake
+/workspaces/prova_container/ros2_ws/install/camera_forwarder/share/camera_forwarder/package.xml

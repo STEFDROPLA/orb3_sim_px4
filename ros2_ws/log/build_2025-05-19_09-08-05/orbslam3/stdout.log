@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target mono[0m
+[35m[1mConsolidate compiler generated dependencies of target rgbd[0m
+[35m[1mConsolidate compiler generated dependencies of target stereo[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o[0m
+[ 33%] Built target mono
+[ 41%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o[0m
+[ 66%] Built target stereo
+[ 75%] [32mBuilding CXX object CMakeFiles/rgbd.dir/src/rgbd/rgbd-slam-node.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable rgbd[0m
+[ 91%] [32m[1mLinking CXX executable stereo-inertial[0m
+[100%] Built target rgbd
+[100%] Built target stereo-inertial
+-- Install configuration: ""
+-- Installing: /workspaces/prova_container/ros2_ws/install/orbslam3/lib/orbslam3/mono
+-- Set runtime path of "/workspaces/prova_container/ros2_ws/install/orbslam3/lib/orbslam3/mono" to ""
+-- Installing: /workspaces/prova_container/ros2_ws/install/orbslam3/lib/orbslam3/rgbd
+-- Set runtime path of "/workspaces/prova_container/ros2_ws/install/orbslam3/lib/orbslam3/rgbd" to ""
+-- Installing: /workspaces/prova_container/ros2_ws/install/orbslam3/lib/orbslam3/stereo
+-- Set runtime path of "/workspaces/prova_container/ros2_ws/install/orbslam3/lib/orbslam3/stereo" to ""
+-- Installing: /workspaces/prova_container/ros2_ws/install/orbslam3/lib/orbslam3/stereo-inertial
+-- Set runtime path of "/workspaces/prova_container/ros2_ws/install/orbslam3/lib/orbslam3/stereo-inertial" to ""
+-- Up-to-date: /workspaces/prova_container/ros2_ws/install/orbslam3/share/ament_index/resource_index/package_run_dependencies/orbslam3
+-- Installing: /workspaces/prova_container/ros2_ws/install/orbslam3/share/ament_index/resource_index/parent_prefix_path/orbslam3
+-- Up-to-date: /workspaces/prova_container/ros2_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.sh
+-- Installing: /workspaces/prova_container/ros2_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspaces/prova_container/ros2_ws/install/orbslam3/share/orbslam3/environment/path.sh
+-- Installing: /workspaces/prova_container/ros2_ws/install/orbslam3/share/orbslam3/environment/path.dsv
+-- Up-to-date: /workspaces/prova_container/ros2_ws/install/orbslam3/share/orbslam3/local_setup.bash
+-- Up-to-date: /workspaces/prova_container/ros2_ws/install/orbslam3/share/orbslam3/local_setup.sh
+-- Up-to-date: /workspaces/prova_container/ros2_ws/install/orbslam3/share/orbslam3/local_setup.zsh
+-- Installing: /workspaces/prova_container/ros2_ws/install/orbslam3/share/orbslam3/local_setup.dsv
+-- Installing: /workspaces/prova_container/ros2_ws/install/orbslam3/share/orbslam3/package.dsv
+-- Up-to-date: /workspaces/prova_container/ros2_ws/install/orbslam3/share/ament_index/resource_index/packages/orbslam3
+-- Up-to-date: /workspaces/prova_container/ros2_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config.cmake
+-- Up-to-date: /workspaces/prova_container/ros2_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config-version.cmake
+-- Up-to-date: /workspaces/prova_container/ros2_ws/install/orbslam3/share/orbslam3/package.xml

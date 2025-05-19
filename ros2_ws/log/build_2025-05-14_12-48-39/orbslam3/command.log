@@ -1,0 +1,4 @@
+Invoking command in '/workspaces/prova_container/ros2_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/prova_container/ros2_ws/src/orbslam3_ros2 -DCMAKE_INSTALL_PREFIX=/workspaces/prova_container/ros2_ws/install/orbslam3
+Invoked command in '/workspaces/prova_container/ros2_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/prova_container/ros2_ws/src/orbslam3_ros2 -DCMAKE_INSTALL_PREFIX=/workspaces/prova_container/ros2_ws/install/orbslam3
+Invoking command in '/workspaces/prova_container/ros2_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/prova_container/ros2_ws/build/orbslam3 -- -j20 -l20
+Invoked command in '/workspaces/prova_container/ros2_ws/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/prova_container/ros2_ws/build/orbslam3 -- -j20 -l20
