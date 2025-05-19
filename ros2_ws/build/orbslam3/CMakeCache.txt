@@ -287,7 +287,7 @@ Pangolin_DIR:PATH=/usr/local/lib/cmake/Pangolin
 Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 
 //Name of the computer/site where compile is being run
-SITE:STRING=ec5c93703192
+SITE:STRING=08b28fe7fb86
 
 //The directory containing a CMake configuration file for Sophus.
 Sophus_DIR:PATH=/usr/local/share/sophus/cmake
@@ -665,7 +665,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/opt/ros/humble/include][/opt/ro
 //Details about finding ORB_SLAM3
 FIND_PACKAGE_MESSAGE_DETAILS_ORB_SLAM3:INTERNAL=[/home/ubuntu/ORB_SLAM3/lib/libORB_SLAM3.so][/home/ubuntu/ORB_SLAM3/include][/home/ubuntu/ORB_SLAM3][/home/ubuntu/ORB_SLAM3/Thirdparty/DBoW2/lib/libDBoW2.so][/home/ubuntu/ORB_SLAM3/Thirdparty/g2o/lib/libg2o.so][v()]
 //Details about finding OpenCV
-FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr][v4.5.4()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr][cfound components: core imgproc highgui calib3d ][v4.5.4()]
 //Details about finding OpenSSL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v3.0.2()]
 //Details about finding Python3

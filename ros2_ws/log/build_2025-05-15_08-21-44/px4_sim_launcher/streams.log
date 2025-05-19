@@ -1,0 +1,23 @@
+[0.011s] Invoking command in '/workspaces/prova_container/ros2_ws/build/px4_sim_launcher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/prova_container/ros2_ws/build/px4_sim_launcher -- -j20 -l20
+[0.048s] Invoked command in '/workspaces/prova_container/ros2_ws/build/px4_sim_launcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/prova_container/ros2_ws/build/px4_sim_launcher -- -j20 -l20
+[0.054s] Invoking command in '/workspaces/prova_container/ros2_ws/build/px4_sim_launcher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/prova_container/ros2_ws/build/px4_sim_launcher
+[0.060s] -- Install configuration: ""
+[0.060s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/px4_sim_launcher//launch
+[0.060s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/px4_sim_launcher//launch/px4_multiple_sitl.launch.py
+[0.061s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/px4_sim_launcher//launch/px4_multiple_sitl.xml
+[0.061s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/ament_index/resource_index/package_run_dependencies/px4_sim_launcher
+[0.061s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/ament_index/resource_index/parent_prefix_path/px4_sim_launcher
+[0.061s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/px4_sim_launcher/environment/ament_prefix_path.sh
+[0.061s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/px4_sim_launcher/environment/ament_prefix_path.dsv
+[0.061s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/px4_sim_launcher/environment/path.sh
+[0.061s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/px4_sim_launcher/environment/path.dsv
+[0.061s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/px4_sim_launcher/local_setup.bash
+[0.061s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/px4_sim_launcher/local_setup.sh
+[0.061s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/px4_sim_launcher/local_setup.zsh
+[0.061s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/px4_sim_launcher/local_setup.dsv
+[0.061s] -- Installing: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/px4_sim_launcher/package.dsv
+[0.061s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/ament_index/resource_index/packages/px4_sim_launcher
+[0.061s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/px4_sim_launcher/cmake/px4_sim_launcherConfig.cmake
+[0.062s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/px4_sim_launcher/cmake/px4_sim_launcherConfig-version.cmake
+[0.062s] -- Up-to-date: /workspaces/prova_container/ros2_ws/install/px4_sim_launcher/share/px4_sim_launcher/package.xml
+[0.063s] Invoked command in '/workspaces/prova_container/ros2_ws/build/px4_sim_launcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/prova_container/ros2_ws/build/px4_sim_launcher

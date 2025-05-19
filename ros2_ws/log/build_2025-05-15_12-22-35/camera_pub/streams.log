@@ -1,0 +1,37 @@
+[0.338s] Invoking command in '/workspaces/prova_container/ros2_ws/src/camera_pub': PYTHONPATH=/workspaces/prova_container/ros2_ws/build/camera_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/prova_container/ros2_ws/install/camera_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pub build --build-base /workspaces/prova_container/ros2_ws/build/camera_pub/build install --record /workspaces/prova_container/ros2_ws/build/camera_pub/install.log --single-version-externally-managed install_data
+[0.463s] running egg_info
+[0.463s] creating ../../build/camera_pub/camera_pub.egg-info
+[0.464s] writing ../../build/camera_pub/camera_pub.egg-info/PKG-INFO
+[0.464s] writing dependency_links to ../../build/camera_pub/camera_pub.egg-info/dependency_links.txt
+[0.464s] writing entry points to ../../build/camera_pub/camera_pub.egg-info/entry_points.txt
+[0.464s] writing requirements to ../../build/camera_pub/camera_pub.egg-info/requires.txt
+[0.464s] writing top-level names to ../../build/camera_pub/camera_pub.egg-info/top_level.txt
+[0.464s] writing manifest file '../../build/camera_pub/camera_pub.egg-info/SOURCES.txt'
+[0.465s] reading manifest file '../../build/camera_pub/camera_pub.egg-info/SOURCES.txt'
+[0.465s] writing manifest file '../../build/camera_pub/camera_pub.egg-info/SOURCES.txt'
+[0.465s] running build
+[0.465s] running build_py
+[0.465s] creating /workspaces/prova_container/ros2_ws/build/camera_pub/build
+[0.465s] creating /workspaces/prova_container/ros2_ws/build/camera_pub/build/lib
+[0.466s] creating /workspaces/prova_container/ros2_ws/build/camera_pub/build/lib/camera_pub
+[0.466s] copying camera_pub/__init__.py -> /workspaces/prova_container/ros2_ws/build/camera_pub/build/lib/camera_pub
+[0.466s] copying camera_pub/camera_publisher.py -> /workspaces/prova_container/ros2_ws/build/camera_pub/build/lib/camera_pub
+[0.466s] running install
+[0.466s] running install_lib
+[0.466s] creating /workspaces/prova_container/ros2_ws/install/camera_pub/lib/python3.10/site-packages/camera_pub
+[0.466s] copying /workspaces/prova_container/ros2_ws/build/camera_pub/build/lib/camera_pub/__init__.py -> /workspaces/prova_container/ros2_ws/install/camera_pub/lib/python3.10/site-packages/camera_pub
+[0.466s] copying /workspaces/prova_container/ros2_ws/build/camera_pub/build/lib/camera_pub/camera_publisher.py -> /workspaces/prova_container/ros2_ws/install/camera_pub/lib/python3.10/site-packages/camera_pub
+[0.467s] byte-compiling /workspaces/prova_container/ros2_ws/install/camera_pub/lib/python3.10/site-packages/camera_pub/__init__.py to __init__.cpython-310.pyc
+[0.467s] byte-compiling /workspaces/prova_container/ros2_ws/install/camera_pub/lib/python3.10/site-packages/camera_pub/camera_publisher.py to camera_publisher.cpython-310.pyc
+[0.467s] running install_data
+[0.467s] creating /workspaces/prova_container/ros2_ws/install/camera_pub/share/ament_index
+[0.467s] creating /workspaces/prova_container/ros2_ws/install/camera_pub/share/ament_index/resource_index
+[0.467s] creating /workspaces/prova_container/ros2_ws/install/camera_pub/share/ament_index/resource_index/packages
+[0.467s] copying resource/camera_pub -> /workspaces/prova_container/ros2_ws/install/camera_pub/share/ament_index/resource_index/packages
+[0.467s] copying package.xml -> /workspaces/prova_container/ros2_ws/install/camera_pub/share/camera_pub
+[0.467s] running install_egg_info
+[0.468s] Copying ../../build/camera_pub/camera_pub.egg-info to /workspaces/prova_container/ros2_ws/install/camera_pub/lib/python3.10/site-packages/camera_pub-0.0.0-py3.10.egg-info
+[0.469s] running install_scripts
+[0.482s] Installing camera_publisher script to /workspaces/prova_container/ros2_ws/install/camera_pub/lib/camera_pub
+[0.482s] writing list of installed files to '/workspaces/prova_container/ros2_ws/build/camera_pub/install.log'
+[0.496s] Invoked command in '/workspaces/prova_container/ros2_ws/src/camera_pub' returned '0': PYTHONPATH=/workspaces/prova_container/ros2_ws/build/camera_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/prova_container/ros2_ws/install/camera_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pub build --build-base /workspaces/prova_container/ros2_ws/build/camera_pub/build install --record /workspaces/prova_container/ros2_ws/build/camera_pub/install.log --single-version-externally-managed install_data

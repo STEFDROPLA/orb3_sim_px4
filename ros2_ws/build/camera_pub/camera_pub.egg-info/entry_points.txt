@@ -1,0 +1,3 @@
+[console_scripts]
+camera_publisher = camera_pub.camera_publisher:main
+

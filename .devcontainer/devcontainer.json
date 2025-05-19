@@ -9,6 +9,17 @@
 		"dockerfile": "develope.dockerfile"
 	},
 
+	"runArgs": [
+		//"--gpus",
+		//"all",
+		"--memory=10gb",
+		"--cpus=4",
+		"-v",
+		"/dev:/dev",
+		"--device-cgroup-rule=c *:* rmw"
+
+	],
+
 	
 	"mounts": [
     //"source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind",

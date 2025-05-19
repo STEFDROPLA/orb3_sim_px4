@@ -126,12 +126,9 @@ RUN if ! id -u $USER_UID >/dev/null 2>&1; then \
     echo "$USERNAME ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/$USERNAME && \
     chmod 0440 /etc/sudoers.d/$USERNAME
 
-USER $USERNAME
 
-# Add user to video group to allow access to webcam
+   
 RUN sudo usermod --append --groups video $USERNAME
-
-
 # Set the working directory
 #WORKDIR /home/ubuntu
 
