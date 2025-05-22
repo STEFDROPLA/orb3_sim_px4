@@ -1,0 +1,35 @@
+# ROS 2 build outputs inside ros2_ws
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+ros2_ws/.colcon/
+
+# Python cache
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# CMake
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+
+# Editor/project files
+.vscode/
+*.code-workspace
+.idea/
+
+# Devcontainer junk (not core config)
+.devcontainer/*.bak
+.devcontainer/*.tmp
+*.swp
+
+# OS/system-specific
+.DS_Store
+Thumbs.db
+
+# Optional: secrets
+.env
+*.key
+*.pem
