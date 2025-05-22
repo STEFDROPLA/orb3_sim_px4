@@ -1,4 +1,0 @@
-Invoking command in '/workspaces/prova_container/ros2_ws/build/px4_sim_launcher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/prova_container/ros2_ws/build/px4_sim_launcher -- -j20 -l20
-Invoked command in '/workspaces/prova_container/ros2_ws/build/px4_sim_launcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/prova_container/ros2_ws/build/px4_sim_launcher -- -j20 -l20
-Invoking command in '/workspaces/prova_container/ros2_ws/build/px4_sim_launcher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/prova_container/ros2_ws/build/px4_sim_launcher
-Invoked command in '/workspaces/prova_container/ros2_ws/build/px4_sim_launcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/prova_container/ros2_ws/build/px4_sim_launcher

@@ -1,3 +1,0 @@
-Invoking command in '/workspaces/prova_container/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/prova_container/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/workspaces/prova_container/ros2_ws/install/px4_msgs
-Invoked command in '/workspaces/prova_container/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/prova_container/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/workspaces/prova_container/ros2_ws/install/px4_msgs
-Invoking command in '/workspaces/prova_container/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/prova_container/ros2_ws/build/px4_msgs -- -j20 -l20

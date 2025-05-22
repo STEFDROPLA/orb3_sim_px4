@@ -1,9 +1,0 @@
-/workspaces/prova_container/ros2_ws/build/px4_sim_launcher/CMakeFiles/uninstall.dir
-/workspaces/prova_container/ros2_ws/build/px4_sim_launcher/CMakeFiles/px4_sim_launcher_uninstall.dir
-/workspaces/prova_container/ros2_ws/build/px4_sim_launcher/CMakeFiles/test.dir
-/workspaces/prova_container/ros2_ws/build/px4_sim_launcher/CMakeFiles/edit_cache.dir
-/workspaces/prova_container/ros2_ws/build/px4_sim_launcher/CMakeFiles/rebuild_cache.dir
-/workspaces/prova_container/ros2_ws/build/px4_sim_launcher/CMakeFiles/list_install_components.dir
-/workspaces/prova_container/ros2_ws/build/px4_sim_launcher/CMakeFiles/install.dir
-/workspaces/prova_container/ros2_ws/build/px4_sim_launcher/CMakeFiles/install/local.dir
-/workspaces/prova_container/ros2_ws/build/px4_sim_launcher/CMakeFiles/install/strip.dir
